@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MapFramework"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Global framework for PHDV."
   s.description      = "Global framework is used as common resources for all markets"
   s.homepage         = "https://github.com:pizzahutuk/gms2.0-ios.git"
