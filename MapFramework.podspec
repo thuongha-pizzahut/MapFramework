@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MapFramework'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'A short description of PHDVMapLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'MapFramework/**/*.{h,m,swift,xib,storyboar}'
-  s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib}'
+  s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib,plist}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
   #s.resources = 'MapFramework/**/*.{png,jpeg,jpg,xcassets,json}'
   # s.resource_bundles = {
