@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   # s.dependency 'Moya/RxSwift', '~> 11.0'
   # s.dependency 'SwiftyJSON'
 
-  s.swift_version = "4.2"
+  #s.swift_version = "4.2"
 
   # s.subspec 'LocalisationFramework' do |subresources|
   #   subresources.source_files = 'Modules/Localisation/LocalisationFramework/**/*.{h,m,Swift,storyboard,xib}'
