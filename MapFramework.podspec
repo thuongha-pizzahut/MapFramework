@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "thuongha-pizzahut" => "thuong.ha@pizzahut.io" }
   s.source           = { :git => "git@github.com:thuongha-pizzahut/MapFramework.git", :tag => "0.1.1" }
-
+  s.ios.deployment_target = '8.0'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
