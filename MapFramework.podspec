@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   #s.source_files = 'MapFramework/**/*.{h,m,swift,xib,storyboar}'
   s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'MapFramework/**/*.{png,jpeg,jpg,xcassets,json,plist}'
+  s.resources = 'MapFramework/**/*.{png,jpeg,jpg,xcassets,json}'
   # s.resource_bundles = {
   #   'PHDVMapLibrary' => ['PHDVMapLibrary/Assets/*.png']
   # }
