@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MapFramework'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of PHDVMapLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -25,15 +25,15 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'XuanThuong' => 'thuong.ha@pizzahut.io' }
-  s.source           = { :git => 'https://github.com/thuongha-pizzahut/MapFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/thuongha-pizzahut/MapFramework.git', :tag => "0.1.6" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'MapFramework/**/*'
-  s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib}'
+  s.source_files = 'MapFramework/**/*'
   # s.vendored_frameworks = ['Frameworks/*.framework']
-  s.resources = 'MapFramework/**/*.{png,jpeg,jpg,xcassets,json,plist}'
+  #s.resources = 'MapFramework/**/*}'
   # s.resource_bundles = {
   #   'PHDVMapLibrary' => ['PHDVMapLibrary/Assets/*.png']
   # }
