@@ -2,13 +2,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "MapFramework"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Global framework for PHDV."
   s.description      = "Global framework is used as common resources for all markets"
   s.homepage         = "https://github.com:pizzahutuk/gms2.0-ios.git"
   s.license          = 'MIT'
   s.author           = { "thuongha-pizzahut" => "thuong.ha@pizzahut.io" }
-  s.source           = { :git => "git@github.com:thuongha-pizzahut/MapFramework.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:thuongha-pizzahut/MapFramework.git", :tag => "0.1.3"}
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib}'
