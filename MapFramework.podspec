@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'MapFramework/**/*'
-  s.source_files = 'MapFramework/**/*'
+  #s.source_files = 'MapFramework/**/*.{h,m,swift,xib,storyboar}'
+  s.source_files = 'MapFramework/**/*.{h,m,Swift,storyboard,xib}'
   # s.vendored_frameworks = ['Frameworks/*.framework']
   #s.resources = 'MapFramework/**/*}'
   # s.resource_bundles = {
